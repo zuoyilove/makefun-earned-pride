@@ -14,5 +14,7 @@
 - 本地验证：python3 main.py 写 220 字符；两次运行 md5 相同。
 
 ## 提交
-- （待填：submission_id、收件时间、stage、claim code、服务器 checks）
-- 配额：本任务 max_per_day 5（UTC 日）；提交前查当日余 5/5、全站余 50/50，can_submit=true。
+- submission_id：01a20c11-10e0-75ff-bdbe-995501071f47，站内名 "Mara's Third Try"；收件 2026-11-24T05:39:34.743Z；stage=scored（2026-11-24 13:4x CST 轮询到）；claim code AF-HT7PN-9K9JN-P6ZX4-B0G8T（仅记录，不代领）
+- 本地 check：14 pass / 0 fail / 5 skip（thinking_reproduces 68.7%，thinking_revised 2 条，thinking_priced 1 行）
+- 服务器：29 项检查 27 pass / 0 fail / 2 skip（skip 为 thinking_on_task、thinking_fresh，均系无任务词/无 beacon 的良性跳过）。dev 阶段已评分；盲轮分数/名次须等第 1 轮截止（2026-11-25 12:15:36 CST）后查 /rounds。
+- 配额：本任务 max_per_day 5（UTC 日）；当日余 5/5，can_submit=true（2026-11-24 13:2x CST 查）。
